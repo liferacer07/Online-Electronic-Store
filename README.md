@@ -92,7 +92,7 @@ CREATE TABLE customer (
 Since admin registration isn't available via UI, manually insert admin credentials into the **admin** table:  
 ```sql
 INSERT INTO admin (UNAME, PWORD, FNAME, LNAME, ADDR, MID, PHNO)  
-VALUES ('admin', 'admin123', 'Xyz', 'Acb', 'Hyd', 'admin@example.com', '1234567890');
+VALUES ('teju', 'tejuadmin', 'Xyz', 'Acb', 'Hyd', 'admin@example.com', '1234567890');
 ```
 
 ---
